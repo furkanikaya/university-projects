@@ -1,0 +1,81 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "label": "Movie",
+            "title": "The Matrix"
+        },
+        {
+            "id": 1,
+            "label": "Person",
+            "name": "Keanu Reeves"
+        },
+        {
+            "id": 2,
+            "label": "Person",
+            "name": "Carrie-Anne Moss"
+        },
+        {
+            "id": 3,
+            "label": "Person",
+            "name": "Laurence Fishburne"
+        },
+        {
+            "id": 4,
+            "label": "Person",
+            "name": "Hugo Weaving"
+        },
+        {
+            "id": 5,
+            "label": "Person",
+            "name": "Lilly Wachowski"
+        },
+        {
+            "id": 6,
+            "label": "Person",
+            "name": "Lana Wachowski"
+        },
+        {
+            "id": 7,
+            "label": "Person",
+            "name": "Joel Silver"
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 0,
+            "type": "ACTED_IN"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "type": "ACTED_IN"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "type": "ACTED_IN"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "type": "ACTED_IN"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "type": "DIRECTED"
+        },
+        {
+            "source": 6,
+            "target": 0,
+            "type": "DIRECTED"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "type": "PRODUCED"
+        }
+    ]
+}
